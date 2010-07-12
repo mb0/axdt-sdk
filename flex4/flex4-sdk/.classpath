@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/asc.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/asdoc.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/batik_de.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/batik_fr.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/batik_ja.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/batik_ko.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/batik_ru.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/batik_zh_CN.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/batik-all-flex.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/commons-collections.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/commons-discovery.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/commons-logging.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/compc.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/copylocale.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/digest.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/fcsh.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/fdb.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/flex-compiler-oem.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/flex-messaging-common.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/fxgutils.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_da.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_de.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_es.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_fi.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_fr.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_it.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_ja.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_ko.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_nb.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_nl.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_pt.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_ru.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_sv.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_zh_CN.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc_zh_TW.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/mxmlc.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/optimizer.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/saxon9.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/swcdepends.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/swfdump.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/swfutils.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/velocity-dep-1.4-flex.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xalan.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesImpl_de.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesImpl_fr.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesImpl_ja.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesImpl_ko.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesImpl_ru.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesImpl_zh_CN.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesImpl.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xercesPatch.jar"/>
+	<classpathentry exported="true" kind="lib" path="flexsdk/lib/xmlParserAPIs.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="con" path="org.eclipse.pde.core.requiredPlugins"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
