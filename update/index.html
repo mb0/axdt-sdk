@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>update</title>
+<title>Axdt SDK repository</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <style>@import url("web/site.css");</style>
 <script type="text/javascript">
@@ -13,7 +13,7 @@
 			xmlFile = document.implementation.createDocument("", "", null);
 			stylesheet = document.implementation.createDocument("", "", null);
 			if (xmlFile.load){
-				xmlFile.load("site.xml");
+				xmlFile.load("content.xml");
 				stylesheet.load("web/site.xsl");
 			} else {
 				alert("Document could not be loaded by browser.");
@@ -25,7 +25,7 @@
 		else if (window.ActiveXObject) {
 			xmlFile = new ActiveXObject("msxml2.DOMDocument.3.0");
 			xmlFile.async = false;
-			xmlFile.load("site.xml");
+			xmlFile.load("content.xml");
 			stylesheet = new ActiveXObject("msxml2.FreeThreadedDOMDocument.3.0");
 			stylesheet.async = false;
 			stylesheet.load("web/site.xsl");
@@ -55,6 +55,6 @@
 </head>
 <body onload="init();">
 <!--[insert static HTML here]-->
-<div id="data"><!-- this is where the transformed data goes --></div>
+<div id="data">Loading... or perhaps no content.xml</div>
 </body>
 </html>

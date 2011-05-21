@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.axdt.sdk.flex4.feature"
+      label="%featureName"
+      version="0.0.83.qualifier"
+      provider-name="%providerName">
+
+   <description url="%descriptionUrl">
+      %description
+   </description>
+
+   <copyright url="%copyrightUrl">
+      %copyright
+   </copyright>
+
+   <license url="%licenseUrl">
+      %license
+   </license>
+
+   <url>
+      <update label="%updateName" url="http://svn.codespot.com/a/eclipselabs.org/axdt/trunk/site/"/>
+      <discovery label="%updateName" url="http://svn.codespot.com/a/eclipselabs.org/axdt/trunk/site/"/>
+   </url>
+
+   <plugin
+         id="org.axdt.sdk.flex4"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"/>
+
+</feature>

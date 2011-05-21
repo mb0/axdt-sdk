@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="org.axdt.sdk.flex4.feature_0.0.83.qualifier.jar" id="org.axdt.sdk.flex4.feature" version="0.0.83.qualifier">
+      <category name="flex4"/>
+   </feature>
+   <category-def name="flex4" label="Flex4 SDK">
+      <description>
+         Flex4 SDK description
+      </description>
+   </category-def>
+</site>

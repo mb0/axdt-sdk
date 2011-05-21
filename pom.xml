@@ -7,42 +7,58 @@
 		<maven>3.0</maven>
 	</prerequisites>
 	<groupId>org.axdt</groupId>
-	<artifactId>org.axdt</artifactId>
-	<name>Axdt</name>
-	<version>0.0.8-SNAPSHOT</version>
+	<artifactId>org.axdt.sdk</artifactId>
+	<version>0.0.83-SNAPSHOT</version>
 	<packaging>pom</packaging>
+	<name>Axdt SDK</name>
 	<modules>
-		<module>as3</module>
-		<module>asdoc</module>
-		<module>avm</module>
-		<module>core</module>
-		<module>flex4</module>
-		<module>mxml</module>
-		<module>swc</module>
-		<module>update</module>
+		<module>org.axdt.sdk.flex4</module>
+		<module>org.axdt.sdk.flex4.feature</module>
+		<module>org.axdt.sdk.update</module>
 	</modules>
 	<properties>
 		<maven.test.skip>true</maven.test.skip>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
-		<tycho-version>0.9.0</tycho-version>
+		<tycho-version>0.11.1</tycho-version>
 	</properties>
 	<licenses>
 		<license>
-			<name>Eclipse Public License - v 1.0</name>
-			<url>http://www.eclipse.org/legal/epl-v10.html</url>
+			<name>Mozilla Public License Version 1.1</name>
+			<url>http://www.mozilla.org/MPL/</url>
+			<comments>
+The contents of the files contained in this Flex SDK directory are subject to the Mozilla Public License Version 1.1 (the "License"); you may not use these files except in compliance with the License. You may obtain a copy of the License here:
+      Mozilla
+      Public License Version 1.1 or http://www.mozilla.org/MPL/.
+
+      Software distributed under the License is distributed on an "AS IS" basis, WITHOUT WARRANTY OF ANY KIND, either express or implied. See the License for the specific language governing
+      rights and limitations under the License.
+
+      The Original Code consists of the files listed above.
+
+      The Initial Developer of the Original Code is Adobe Systems Incorporated.
+      By downloading, modifying, distributing, using and/or accessing any files in this
+      directory, you agree to the terms and conditions of the applicable end user license agreement.
+</comments>
 		</license>
 	</licenses>
-	<url>http://axdt.org</url>
+	<url>git://github.org/mb0/axdt/wiki</url>
 	<inceptionYear>2010</inceptionYear>
 	<issueManagement>
-		<system>Trac</system>
-		<url>http://new.axdt.org/report</url>
+		<system>Github</system>
+		<url>git://github.org/mb0/axdt-sdk/issues</url>
 	</issueManagement>
 	<scm>
-		<connection>scm:git:git://axdt.org/newaxdt.git</connection>
-		<developerConnection>scm:git:ssh://git@axdt.org/newaxdt.git</developerConnection>
-		<url>http://new.axdt.org/browser</url>
+		<connection>scm:git:git://github.org/mb0/axdt-sdk.git</connection>
+		<developerConnection>scm:git:ssh://git@github.org/mb0/axdt-sdk.git</developerConnection>
+		<url>http://github.org/mb0/axdt-sdk</url>
 	</scm>
+<!--repositories>
+   <repository>
+     <id>ganymede</id>
+     <layout>p2</layout>
+     <url>file:/${basedir}/../org.eclipse.egit-updatesite/target/site</url>
+   </repository>
+  </repositories-->
 	<build>
 		<plugins>
 			<plugin>
@@ -52,7 +68,7 @@
 				<extensions>true</extensions>
 			</plugin>
 			<plugin>
-				<groupId>org.codehaus.tycho</groupId>
+				<groupId>org.sonatype.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
 				<version>${tycho-version}</version>
 				<configuration>
@@ -64,25 +80,10 @@
 			<plugins>
 				<plugin>
 					<groupId>org.sonatype.tycho</groupId>
-					<artifactId>maven-osgi-lifecycle-plugin</artifactId>
-					<version>${tycho-version}</version>
-				</plugin>
-				<plugin>
-					<groupId>org.sonatype.tycho</groupId>
 					<artifactId>maven-osgi-compiler-plugin</artifactId>
 					<version>${tycho-version}</version>
 					<configuration>
-						<source>1.5</source>
-						<target>1.5</target>
-					</configuration>
-				</plugin>
-				<plugin>
-					<groupId>org.sonatype.tycho</groupId>
-					<artifactId>maven-osgi-packaging-plugin</artifactId>
-					<version>${tycho-version}</version>
-					<configuration>
-						<!-- workaround for TYCHO-349 or TYCHO-313 -->
-						<strictVersions>false</strictVersions>
+						<encoding>UTF-8</encoding>
 					</configuration>
 				</plugin>
 			</plugins>

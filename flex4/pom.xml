@@ -3,19 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
-	<artifactId>org.axdt.flex4</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
-	<packaging>pom</packaging>
+	<artifactId>org.axdt.sdk.flex4</artifactId>
+	<version>4.0.0.14159_mpl</version>
+	<packaging>eclipse-plugin</packaging>
+	<name>Flex 4 SDK</name>
 	<parent>
-		<artifactId>org.axdt</artifactId>
 		<groupId>org.axdt</groupId>
-		<version>0.0.8-SNAPSHOT</version>
+		<artifactId>org.axdt.sdk</artifactId>
+		<version>0.0.83-SNAPSHOT</version>
 	</parent>
-	<modules>
-		<module>flex4-feature</module>
-		<module>flex4-config</module>
-		<module>flex4-antsupport</module>
-		<module>flex4-integration</module>
-		<module>flex4-sdk</module>
-	</modules>
 </project>
