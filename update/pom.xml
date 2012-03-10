@@ -4,39 +4,12 @@
 	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>org.axdt.sdk.update</artifactId>
-	<version>0.0.83-SNAPSHOT</version>
+	<version>0.0.9-SNAPSHOT</version>
 	<packaging>eclipse-repository</packaging>
 	<name>Axdt SDK repository</name>
 	<parent>
 		<groupId>org.axdt</groupId>
 		<artifactId>org.axdt.sdk</artifactId>
-		<version>0.0.83-SNAPSHOT</version>
+		<version>0.0.9-SNAPSHOT</version>
 	</parent>
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-antrun-plugin</artifactId>
-				<version>1.2</version>
-				<executions>
-					<execution>
-						<phase>package</phase>
-						<goals>
-							<goal>run</goal>
-						</goals>
-						<configuration>
-							<tasks>
-								<unzip src="target/repository/content.jar" dest="target/repository/" />
-								<copy todir="target/repository">
-									<fileset dir="./" includes="web/*" />
-									<fileset file="index.html" />
-								</copy>
-								<zip destfile="target/{project.artifactId}.zip" basedir="target/repository" />
-							</tasks>
-						</configuration>
-					</execution>
-				</executions>
-			</plugin>
-		</plugins>
-	</build>
 </project>

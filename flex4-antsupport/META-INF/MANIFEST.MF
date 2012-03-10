@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: %pluginName
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-SymbolicName: org.axdt.sdk.flex4.antsupport;singleton:=true
+Bundle-Version: 0.0.9.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ClassPath: .,
+ lib/flexTasks.jar
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.variables,
+ org.apache.ant,
+ org.axdt.sdk.flex4;bundle-version="4.0.0";visibility:=reexport,
+ org.eclipse.ant.core,
+ org.axdt.core.ui,
+ org.eclipse.ui.ide

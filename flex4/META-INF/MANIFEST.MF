@@ -5,8 +5,7 @@ Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-SymbolicName: org.axdt.sdk.flex4;singleton:=true
 Bundle-Version: 4.0.0.14159_mpl
-Bundle-RequiredExecutionEnvironment: J2SE-1.5,
- JavaSE-1.6
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
 Bundle-ActivationPolicy: lazy
 Bundle-ClassPath: flexsdk/lib/asc.jar,
  flexsdk/lib/asdoc.jar,
