@@ -107,6 +107,16 @@ The contents of the files contained in this Flex SDK directory are subject to th
                <layout>p2</layout>
                <url>http://download.eclipse.org/releases/indigo</url>
             </repository>
+				<repository>
+					<id>xtext</id>
+					<layout>p2</layout>
+					<url>http://download.eclipse.org/modeling/tmf/xtext/updates/composite/releases/</url>
+				</repository>
+				<repository>
+					<id>orbit</id>
+					<layout>p2</layout>
+					<url>http://download.eclipse.org/tools/orbit/downloads/drops/R20120119162704/repository/</url>
+				</repository>
          </repositories>
 
 	<developers>
