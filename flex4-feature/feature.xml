@@ -23,4 +23,26 @@
          install-size="0"
          version="0.0.0"/>
 
+   <plugin
+         id="org.axdt.sdk.flex4.antsupport"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.axdt.sdk.flex4.config"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.axdt.sdk.flex4.integration"
+         download-size="0"
+         install-size="0"
+         version="0.0.0"
+         fragment="true"
+         unpack="false"/>
+
 </feature>
