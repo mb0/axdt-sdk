@@ -17,9 +17,6 @@
       %license
    </license>
 
-   <url>
-   </url>
-
    <plugin
          id="org.axdt.sdk.flex4"
          download-size="0"
